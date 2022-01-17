@@ -26,6 +26,9 @@
         </div>
         <input type="hidden" name="next" value="{{ next }}" />
         <button class="mt-4 w-full bg-gradient-to-tr from-blue-600 to-indigo-600 text-indigo-100 py-2 rounded-md text-lg tracking-wide">Login</button>
+        <div>
+        <button class="mt-4 w-full bg-gradient-to-tr from-blue-600 to-indigo-600 text-indigo-100 py-2 rounded-md text-lg tracking-wide"><a href="{% url "password_reset" %}">Forgotten your password?</a></button>
+        </div>
       </div>
     </form>
   </div>
